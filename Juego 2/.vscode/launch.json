@@ -1,0 +1,17 @@
+{
+   
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch with ASan",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/debug/OpenGl.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+
+          }
+    ]
+}

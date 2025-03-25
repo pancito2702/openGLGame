@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\gabri\OneDrive\Desktop\Pruebas y pruebas\C++\Juegos\Juego 2\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gabri\OneDrive\Desktop\Pruebas y pruebas\C++\Juegos\Juego 2\src\GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gabri\OneDrive\Desktop\Pruebas y pruebas\C++\Juegos\Juego 2\src\Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gabri\OneDrive\Desktop\Pruebas y pruebas\C++\Juegos\Juego 2\src\OptionsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gabri\OneDrive\Desktop\Pruebas y pruebas\C++\Juegos\Juego 2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AB714073-C957-372C-89BC-507B7A790E85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

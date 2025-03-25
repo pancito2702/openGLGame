@@ -1,0 +1,10 @@
+^C:\USERS\GABRI\ONEDRIVE\DESKTOP\PRUEBAS Y PRUEBAS\C++\JUEGOS\JUEGO 2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2" "-BC:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build" --check-stamp-file "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\GABRI\ONEDRIVE\DESKTOP\PRUEBAS Y PRUEBAS\C++\JUEGOS\JUEGO 2\BUILD\CMAKEFILES\978B474DDFC6A35A68AB6397AA012444\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2" "-BC:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/OpenGL.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

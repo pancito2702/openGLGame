@@ -1,0 +1,527 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /fsanitize=address
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+      Compilaci├│n iniciada a las 18/3/2025 23:08:37.
+      
+      Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" no se reconoce como un comando interno o externo,
+        programa o archivo por lotes ejecutable.
+        El comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" sali├│ con el c├│digo 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.27
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /fsanitize=address
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+      Compilaci├│n iniciada a las 18/3/2025 23:08:39.
+      
+      Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" no se reconoce como un comando interno o externo,
+        programa o archivo por lotes ejecutable.
+        El comando "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" sali├│ con el c├│digo 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Program Files\\C++\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Program Files\\C++\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.23
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-kugwlm"
+      binary: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-kugwlm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/fsanitize=address  /DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/C++/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-kugwlm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cf89b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+        Compilaci├│n iniciada a las 18/3/2025 23:08:40.
+        
+        Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\cmTC_cf89b.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_cf89b.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\Debug\\".
+          Creando directorio "cmTC_cf89b.dir\\Debug\\cmTC_cf89b.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_cf89b.dir\\Debug\\cmTC_cf89b.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_cf89b.dir\\Debug\\cmTC_cf89b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf89b.dir\\Debug\\\\" /Fd"cmTC_cf89b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34808 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf89b.dir\\Debug\\\\" /Fd"cmTC_cf89b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\Debug\\cmTC_cf89b.exe" /INCREMENTAL /ILK:"cmTC_cf89b.dir\\Debug\\cmTC_cf89b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-kugwlm/Debug/cmTC_cf89b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-kugwlm/Debug/cmTC_cf89b.lib" /MACHINE:X64  /machine:x64 cmTC_cf89b.dir\\Debug\\CMakeCCompilerABI.obj
+        LINK : warning LNK4300: se ignora "/INCREMENTAL" porque el m├│dulo de entrada contiene metadatos de ASAN [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\cmTC_cf89b.vcxproj]
+          cmTC_cf89b.vcxproj -> C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\Debug\\cmTC_cf89b.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_cf89b.dir\\Debug\\cmTC_cf89b.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_cf89b.dir\\Debug\\cmTC_cf89b.tlog\\cmTC_cf89b.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\cmTC_cf89b.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+        
+        "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\cmTC_cf89b.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : warning LNK4300: se ignora "/INCREMENTAL" porque el m├│dulo de entrada contiene metadatos de ASAN [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kugwlm\\cmTC_cf89b.vcxproj]
+        
+            1 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-yszagm"
+      binary: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-yszagm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/fsanitize=address  /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/C++/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-yszagm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a0f5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+        Compilaci├│n iniciada a las 18/3/2025 23:08:42.
+        
+        Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\cmTC_a0f5b.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_a0f5b.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\Debug\\".
+          Creando directorio "cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a0f5b.dir\\Debug\\\\" /Fd"cmTC_a0f5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /fsanitize=address "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34808 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a0f5b.dir\\Debug\\\\" /Fd"cmTC_a0f5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  /fsanitize=address "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\Debug\\cmTC_a0f5b.exe" /INCREMENTAL /ILK:"cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-yszagm/Debug/cmTC_a0f5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-yszagm/Debug/cmTC_a0f5b.lib" /MACHINE:X64  /machine:x64 cmTC_a0f5b.dir\\Debug\\CMakeCXXCompilerABI.obj
+        LINK : warning LNK4300: se ignora "/INCREMENTAL" porque el m├│dulo de entrada contiene metadatos de ASAN [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\cmTC_a0f5b.vcxproj]
+          cmTC_a0f5b.vcxproj -> C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\Debug\\cmTC_a0f5b.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_a0f5b.dir\\Debug\\cmTC_a0f5b.tlog\\cmTC_a0f5b.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\cmTC_a0f5b.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+        
+        "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\cmTC_a0f5b.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : warning LNK4300: se ignora "/INCREMENTAL" porque el m├│dulo de entrada contiene metadatos de ASAN [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yszagm\\cmTC_a0f5b.vcxproj]
+        
+            1 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:19 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-6y64ei"
+      binary: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-6y64ei"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/fsanitize=address  /DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/C++/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-6y64ei'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3020d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+        Compilaci├│n iniciada a las 18/3/2025 23:08:43.
+        
+        Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\cmTC_3020d.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_3020d.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\Debug\\".
+          Creando directorio "cmTC_3020d.dir\\Debug\\cmTC_3020d.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3020d.dir\\Debug\\cmTC_3020d.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3020d.dir\\Debug\\cmTC_3020d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3020d.dir\\Debug\\\\" /Fd"cmTC_3020d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\src.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34808 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3020d.dir\\Debug\\\\" /Fd"cmTC_3020d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\src.c"
+          src.c
+        C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\cmTC_3020d.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\cmTC_3020d.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\cmTC_3020d.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6y64ei\\cmTC_3020d.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:19 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-95lrpg"
+      binary: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-95lrpg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/fsanitize=address  /DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/C++/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-95lrpg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19c86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+        Compilaci├│n iniciada a las 18/3/2025 23:08:44.
+        
+        Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\cmTC_19c86.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_19c86.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\Debug\\".
+          Creando directorio "cmTC_19c86.dir\\Debug\\cmTC_19c86.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_19c86.dir\\Debug\\cmTC_19c86.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_19c86.dir\\Debug\\cmTC_19c86.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19c86.dir\\Debug\\\\" /Fd"cmTC_19c86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\CheckFunctionExists.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34808 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19c86.dir\\Debug\\\\" /Fd"cmTC_19c86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\Debug\\cmTC_19c86.exe" /INCREMENTAL /ILK:"cmTC_19c86.dir\\Debug\\cmTC_19c86.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-95lrpg/Debug/cmTC_19c86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-95lrpg/Debug/cmTC_19c86.lib" /MACHINE:X64  /machine:x64 cmTC_19c86.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\cmTC_19c86.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\cmTC_19c86.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\cmTC_19c86.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95lrpg\\cmTC_19c86.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/vcpkg_installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "C:/Program Files/C++/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:19 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-tmcbqk"
+      binary: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-tmcbqk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/fsanitize=address  /DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/C++/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-tmcbqk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e76c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.13.9+e0f243f1e para .NET Framework
+        Compilaci├│n iniciada a las 18/3/2025 23:08:45.
+        
+        Proyecto "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\cmTC_e76c1.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_e76c1.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\Debug\\".
+          Creando directorio "cmTC_e76c1.dir\\Debug\\cmTC_e76c1.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_e76c1.dir\\Debug\\cmTC_e76c1.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_e76c1.dir\\Debug\\cmTC_e76c1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e76c1.dir\\Debug\\\\" /Fd"cmTC_e76c1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\CheckFunctionExists.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.43.34808 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e76c1.dir\\Debug\\\\" /Fd"cmTC_e76c1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /fsanitize=address "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\Debug\\cmTC_e76c1.exe" /INCREMENTAL /ILK:"cmTC_e76c1.dir\\Debug\\cmTC_e76c1.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-tmcbqk/Debug/cmTC_e76c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Desktop/Pruebas y pruebas/C++/Juegos/Juego 2/build/CMakeFiles/CMakeScratch/TryCompile-tmcbqk/Debug/cmTC_e76c1.lib" /MACHINE:X64  /machine:x64 cmTC_e76c1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\cmTC_e76c1.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\cmTC_e76c1.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\cmTC_e76c1.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\gabri\\OneDrive\\Desktop\\Pruebas y pruebas\\C++\\Juegos\\Juego 2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmcbqk\\cmTC_e76c1.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.43
+        
+      exitCode: 1
+...
